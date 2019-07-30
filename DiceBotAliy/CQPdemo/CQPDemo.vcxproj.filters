@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Message">
+      <UniqueIdentifier>{1d1f573b-3762-48b1-aef5-e6186b0dd083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Message">
+      <UniqueIdentifier>{3f71b0dd-b7b8-44e9-a512-cfc1ab563246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CQ">
+      <UniqueIdentifier>{07b81367-009f-4645-85e6-5f8ba2190da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CQ">
+      <UniqueIdentifier>{e937b33a-11bf-4497-942b-8aef08180ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Device">
+      <UniqueIdentifier>{611111a3-4d48-4dab-92eb-e532dc1a3ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Device">
+      <UniqueIdentifier>{443e8b68-a69e-4bfd-abef-0f9d27057dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sqlite">
+      <UniqueIdentifier>{31416b89-5af0-4770-9fc3-55cca7e22957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{b590896d-b384-46f8-8e9a-c390876fa705}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cqp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="appmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CQMessage.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="CQPrivateMessage.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="CQGroupMessage.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="CQDiscussMessage.h">
+      <Filter>Header Files\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="CQAPI_EX.h">
+      <Filter>Header Files\CQ</Filter>
+    </ClInclude>
+    <ClInclude Include="DiceBot.h">
+      <Filter>Header Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Sender.h">
+      <Filter>Header Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Unpack.h">
+      <Filter>Header Files\CQ</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberInfo.h">
+      <Filter>Header Files\CQ</Filter>
+    </ClInclude>
+    <ClInclude Include="CQTools.h">
+      <Filter>Header Files\CQ</Filter>
+    </ClInclude>
+    <ClInclude Include="code.h">
+      <Filter>sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="TXTHandler.h">
+      <Filter>Header Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Speaker.h">
+      <Filter>Header Files\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="appmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CQMessage.cpp">
+      <Filter>Source Files\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CQPrivateMessage.cpp">
+      <Filter>Source Files\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CQGroupMessage.cpp">
+      <Filter>Source Files\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CQDiscussMessage.cpp">
+      <Filter>Source Files\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="CQAPI_EX.cpp">
+      <Filter>Source Files\CQ</Filter>
+    </ClCompile>
+    <ClCompile Include="DiceBot.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Sender.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Unpack.cpp">
+      <Filter>Source Files\CQ</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberInfo.cpp">
+      <Filter>Source Files\CQ</Filter>
+    </ClCompile>
+    <ClCompile Include="CQTools.cpp">
+      <Filter>Source Files\CQ</Filter>
+    </ClCompile>
+    <ClCompile Include="code.cpp">
+      <Filter>sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="TXTHandler.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Speaker.cpp">
+      <Filter>Source Files\Device</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CQP.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="com.example.democ.json" />
+  </ItemGroup>
+</Project>
